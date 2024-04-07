@@ -11,8 +11,6 @@ function drawTriangle(height, symbol) {
         console.log(line);
     }
 }
-
-// Приклад виклику функції з висотою 5 та символом '*'
 drawTriangle(5, '*');
 
 // ДЗ 2
