@@ -4,9 +4,15 @@
 
 function drawTriangle(height, symbol) {
     for (let i = 1; i <= height; i++) {
-        console.log(symbol.repeat(i));
+        let line = '';
+        for (let j = 0; j < i; j++) {
+            line += symbol;
+        }
+        console.log(line);
     }
 }
+
+// Приклад виклику функції з висотою 5 та символом '*'
 drawTriangle(5, '*');
 
 // ДЗ 2
